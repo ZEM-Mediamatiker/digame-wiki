@@ -1,0 +1,25 @@
+{% macro loop(page) %}
+{% for p in page.children %}
+{% if p.visible %}
+<li>
+<a href="{{ p.url }}">{{ p.menu }}</a>
+{% if p.children.count > 0 %}
+<ol>
+{{ _self.loop(p) }}
+</ol>
+{% endif %}
+</li>
+{% endif %}
+{% endfor %}
+{% endmacro %}
+ 
+<ol class="topics">
+{{ _self.loop(pages) }}
+</ol>
+
+
+
+
+
+ 
+
