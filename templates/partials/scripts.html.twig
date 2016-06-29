@@ -1,0 +1,19 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <!--<script src="{{ theme_url }}/assets/js/modernizr.min.js"></script>-->
+        <script src="{{ theme_url }}/assets/js/bootstrap.min.js"></script>
+        <script src="{{ theme_url }}/assets/js/mousetrap.min.js"></script>
+        <script src="{{ theme_url }}/assets/js/highlight.pack.js"></script>
+        <script src="{{ theme_url }}/assets/js/scripts.js"></script>
+        <script src="{{ theme_url }}/assets/js/classie.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+		<script>
+			Mousetrap.bind("m",function(){$("#page").addClass("fixbody"),$("#menu-overlay").addClass("open-overlay"),$("#navbtn").prop("checked",!0)}),Mousetrap.bind("p",function(){window.print()}),Mousetrap.bind("right",function(){window.location.href="{{ progress.prevSibling(page.path).url }}"}),Mousetrap.bind("left",function(){window.location.href="{{ progress.nextSibling(page.path).url }}"}),Mousetrap.bind("esc",function(){$("#page").removeClass("fixbody"),$("#menu-overlay").removeClass("open-overlay"),$("#navbtn").prop("checked",!1),$("#search-overlay").removeClass("open-searchoverlay")});
+		</script>
+		<!--[if IE]>
+		<script>
+        	$('#showOverlay').on('click', function(){
+				$("#menu-overlay").css("top","auto");
+				$("#menu-overlay").css("bottom","auto");
+			});
+        </script>
+        <![endif]-->

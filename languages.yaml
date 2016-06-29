@@ -6,6 +6,9 @@ de:
     SEARCH_RESULTS: "Suchresultate"
     SEARCH_RESULTS_EDITED: "Seite zuletzt geändert:"
     SEARCH_RESULTS_TERM: "Ergebnisse für diesen Suchbegriff gefunden."
+    ERROR: "Fehler"
+    ERROR_NOT_FOUND: "Woops. Es sieht aus, als würde diese Seite nicht existieren."
+    ERROR_BACK_TO_START: "Zurück zur Startseite."
 
 fr:
   THEME_ZEMWIKI:
@@ -15,6 +18,9 @@ fr:
     SEARCH_RESULTS: "résultats de la recherche"
     SEARCH_RESULTS_EDITED: "Page modifiée:"
     SEARCH_RESULTS_TERM: "résultats pour ce terme de recherche."
+    ERROR: "erreur"
+    ERROR_NOT_FOUND: "Woops. On dirait que n'existe pas cette page."
+    ERROR_BACK_TO_START: "Aller à la page d'accueil."
 
 en:
   THEME_ZEMWIKI:
@@ -24,3 +30,6 @@ en:
     SEARCH_RESULTS: "search results"
     SEARCH_RESULTS_EDITED: "Page modified:"
     SEARCH_RESULTS_TERM: "results for your search term."
+    ERROR: "Error"
+    ERROR_NOT_FOUND: "Woops. Looks like this page doesn't exist."
+    ERROR_BACK_TO_START: "Go back to the home page."

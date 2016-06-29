@@ -1,0 +1,21 @@
+<section id="search-overlay">
+      		<section id="searchcontainer">
+      			<p class="searchdescription">{{ "THEME_ZEMWIKI.ENTER_SEARCH_TERM"|t }}</p>
+      				<div id="search-searchconatiner">
+      				<form method="POST" action="{{ base_url_relative }}/search/query:" onsubmit="onSearch(this)">
+      					<input id="searchfield" type="text" placeholder="{{ "THEME_ZEMWIKI.SEARCH_PLACEHOLDER"|t }}" autocomplete="off" required>
+                <button type="submit" class="search-submit">
+                  <i class="fa fa-lg fa-search"></i>
+                </button>
+      				</form>
+      			</div>
+      		</section>
+      		<div id="closeSearchOverlay" class="searchmenubutton">
+       			<div class="menutransform">
+            		<div class="linie top left"></div>
+           			<div class="linie top right"></div>
+            		<div class="linie bottom left"></div>
+            		<div class="linie bottom right"></div>
+            	</div>
+            </div>
+        </section>

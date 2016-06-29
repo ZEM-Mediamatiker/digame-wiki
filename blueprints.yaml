@@ -1,7 +1,7 @@
 name: DIGAME Wiki
-version: 1.1
+version: 0.1
 description: "Grav Theme für das DIGAME Handbuch des ZEM"
-icon: group
+icon: book
 author:
   name: Stefan Eckstein
   email: stefan.eckstein@vtg.admin.ch

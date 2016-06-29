@@ -1,2 +1,2 @@
 # digame-wiki
-Grav Theme for DIGAME
+Grav Theme for the DIGAME manual.
