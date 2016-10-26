@@ -453,11 +453,13 @@ header{
 	margin: 13px 10px 10px 20px;
 	height: 50px;
 	width: 410px;
-	background: url(../images/layout/logo_vbs_quer1.png) no-repeat;
+	/*background: url(../images/layout/logo_vbs_quer1.png) no-repeat;*/
+    background: url(../images/layout/logo-quer.svg);
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+    
 	background-repeat: no-repeat;
 	float: left;
 }
