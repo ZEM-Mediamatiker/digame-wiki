@@ -1,11 +1,11 @@
 name: DIGAME Wiki
-version: 0.1
+version: 1.3
 description: "Grav Theme für das DIGAME Handbuch des ZEM"
 icon: book
 author:
   name: Stefan Eckstein
-  email: stefan.eckstein@vtg.admin.ch
-  url: https://eckstein.be
+  email: zem.medienagentur@vtg.admin.ch
+  url: https://www.zem.ch
 homepage: http://digame.zem.ch
 keywords: minimalist, theme, modern, fast, responsive, html5, css3, zem, digame, wiki
 bugs: https://github.com/ZEM-Mediamatiker/digame-wiki
