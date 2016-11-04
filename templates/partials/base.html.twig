@@ -6,11 +6,11 @@
 
       <section id="page">
 			     <header id="header">
-      		        <div id="logo"></div>
+                     <a href="{{ base_url_absolute}}"><div id="logo"></div></a>
       			    <div id="title">
       				    <h3 class="header-title"><a href="{{ base_url_absolute}}">{{ config.site.title }}</a></h3>
       			    </div>
-      			    <a class="print" href="javascript:window.print()">
+      			    <a class="print" onClick="setTimeout('window.print()', 500);">
                         <div class="print_icon">
                             <i class="fa fa-lg fa-print"></i>
                         </div>
@@ -22,6 +22,8 @@
       			</div>
       		</header>
       		<div class="clearfix"></div>
+            
+          <div class="printlogo"><img src="{{ theme_url }}/assets/images/layout/logo_vbs.png"></div>
 
       		<section id="content">
       			<div class="padding">
@@ -30,7 +32,9 @@
                     {% endblock %}
       				<div class="copywrapper">
       					&copy; 2016 | <a href="http://zem.ch" target="_blank" alt="Zentrum elektronische Medien">{{ "THEME_ZEMWIKI.ZEM"|t }}</a><br>
-      					<a href="{{ page.find('/changelog').url() }}" alt="Changelog">Changelog</a> | Powered by <a href="http://getgrav.org" target="_blank" alt="Grav Flat File CMS">Grav</a>
+                        <div class="powered">
+      					     <a href="{{ page.find('/changelog').url() }}" alt="Changelog">Changelog</a> | Powered by <a href="http://getgrav.org" target="_blank" alt="Grav Flat File CMS">Grav</a>
+                        </div>
       				</div>
       			</div>
       			{% set progress = page.collection({'items':{'@taxonomy.category': 'backendanleitung'},'order': {'by': 'default', 'dir': 'asc'}}) %}
