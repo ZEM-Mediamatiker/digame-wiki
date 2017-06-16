@@ -33,3 +33,15 @@ en:
     ERROR: "Error"
     ERROR_NOT_FOUND: "Woops. Looks like this page doesn't exist."
     ERROR_BACK_TO_START: "Go back to the home page."
+    
+it:
+  THEME_ZEMWIKI:
+    ZEM: "Centro dei media elettronici"
+    ENTER_SEARCH_TERM: "Geben Sie einen Suchbegriff ein"
+    SEARCH_PLACEHOLDER: "Suche..."
+    SEARCH_RESULTS: "Suchresultate"
+    SEARCH_RESULTS_EDITED: "Seite zuletzt geändert:"
+    SEARCH_RESULTS_TERM: "Ergebnisse für diesen Suchbegriff gefunden."
+    ERROR: "Fehler"
+    ERROR_NOT_FOUND: "Woops. Es sieht aus, als würde diese Seite nicht existieren."
+    ERROR_BACK_TO_START: "Zurück zur Startseite."

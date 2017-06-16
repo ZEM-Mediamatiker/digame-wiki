@@ -31,7 +31,7 @@
                     
                     {% endblock %}
       				<div class="copywrapper">
-      					&copy; 2016 | <a href="http://zem.ch" target="_blank" alt="Zentrum elektronische Medien">{{ "THEME_ZEMWIKI.ZEM"|t }}</a><br>
+      					&copy; {{ "now"|date("Y") }} | <a href="http://zem.ch" target="_blank" alt="Zentrum elektronische Medien">{{ "THEME_ZEMWIKI.ZEM"|t }}</a><br>
                         <div class="powered">
       					     <a href="{{ page.find('/changelog').url() }}" alt="Changelog">Changelog</a> | Powered by <a href="http://getgrav.org" target="_blank" alt="Grav Flat File CMS">Grav</a>
                         </div>
